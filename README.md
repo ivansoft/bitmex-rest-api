@@ -1,1 +1,3 @@
-# bitmex-rest-rnd
+# BitMEX REST API Samples
+
+TBD
