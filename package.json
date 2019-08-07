@@ -4,7 +4,7 @@
   "description": "TBD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/ivansoft/bitmex-rest-api#readme",
   "dependencies": {
     "bit_mex_api": "^1.2.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "verbose": true
   }
 }
