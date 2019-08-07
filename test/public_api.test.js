@@ -1,7 +1,6 @@
 const bitmex = require('bit_mex_api');
 
-const API_KEY = require('../bitmex-api-keys').API_KEY;
-const API_PRIVATE = require('../bitmex-api-keys').API_PRIVATE;
+const { API_KEY, API_PRIVATE } = require('../bitmex-api-keys');
 
 let api;
 
