@@ -4,7 +4,7 @@
   "description": "TBD",
   "main": "index.js",
   "scripts": {
-    "create-keys-file": "bin/create-keys-file.mjs",
+    "keys": "bin/create-keys-file.mjs",
     "test": "jest"
   },
   "repository": {
