@@ -4,6 +4,7 @@
   "description": "TBD",
   "main": "index.js",
   "scripts": {
+    "create-keys-file": "bin/create-keys-file.mjs",
     "test": "jest"
   },
   "repository": {
@@ -20,7 +21,8 @@
     "bit_mex_api": "^1.2.1"
   },
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "commander": "^3.0.0"
   },
   "jest": {
     "verbose": true
