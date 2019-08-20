@@ -2,8 +2,10 @@
   "name": "bitmex-rest-api",
   "version": "0.0.1",
   "description": "TBD",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "keys": "bin/create-keys-file.mjs",
     "test": "jest"
   },
