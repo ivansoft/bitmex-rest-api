@@ -1,14 +1,6 @@
-
-// TODO: handwritten api connector here
-
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+import http from './net/http';
 
 
-console.log('cli');
+http.get("http://example.com");
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
-console.log(__dirname);
-console.log(__filename);
